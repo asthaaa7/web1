@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Miniature Zelkova Bonsai</title>
+<style>
+    .centernav li a{
+            font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+        .horizontal_line2 {
+            margin-top: 9px;
+            margin-left: 0px;
+            background-color: grey;
+            width: 40px;
+            height: 5px;
+            border-top: 5px  black;
+            line-height: 80%;
+        }
+  
+        .line2 {
+        margin-left: 0px;
+        border-bottom: 5px solid #267792;
+        margin-top: 5px;
+        width: 50px;
+    }
+    .description h3{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif ;
+        color: #3ca95f;
+    }
+    .description h1{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .description h2{
+        font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+        color: #3ca95f;
+        font-size: 10px;
+    }
+    .description p{
+        font-family:'Montserrat', 'Arial Narrow', Arial, sans-serif ;
+    }
+   
+    .menu h1{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .contact h1{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .social h1{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .menu ul li a{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .contact ul li {
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+    }
+    .social ul li {
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+    }
+    .menu ul li {
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+    }
+    .copyright{
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+    }
+</style>
+<script type="text/javascript">
+    function alertFunction(){
+        alert("This service will we back soon.");
+    }
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../All CSS/Allproductcss.css">
+
+</head>
+<body>
+
+
+<!--the start of the navbar-->
+<nav>   
+    <!--the logo of the navbar-->
+    <ul class="leftnav">
+            <a href="../All HTML/kisonew.html"><img class="logo" src="../All Images/logo.jpg" width="50" height="50"></a>
+        <div class="horizontal_line2"></div>
+        <div class="line2"></div>
+    </ul>
+    <!--the center options of the navbar-->
+    <ul class= "centernav">
+        <li>
+        <a href="../All HTML/KisoProducts.html"><b>Our Products</b></a></li>
+    <li>
+        <a href="../All HTML/About US.html"><b>About Us</b></a></li>
+    <li>
+        <a href="../All HTML/blog.html"><b>Blog</b></a></li>
+    <li>
+        <a href="../All HTML/research.html"><b>Research</b></a></li> 
+    <li>
+        <a href="../All HTML/chooseus.html"><b>Why Choose Us?</b></a></li> 
+</ul> 
+        
+    
+     <!--the right options of the navbar-->   
+     <ul class="rightnav">
+        <li>
+             <a href="#" onclick="alertFunction()"><img src="../All Images/User.png" width="30" height="30"></a></li>
+        <li>
+             <a href="#" onclick="alertFunction()"><img src="../All Images/Cart.png" width="23" height="23"></a></li>
+        
+    </ul>
+    
+    </nav>
+<div class="container">
+    <div class="images">
+        <img class = "image" src="../All Images/Bonsai.jpg" width="610" height="500">
+       
+    </div>
+    
+    <div class="description">
+        <h1>Miniature Zelkova Bonsai</h1><br>
+        <h2><b>Zelkova Bonsai</b></h2><br>
+        <p><b>Japanese Zelkova is a hardy urban tree for street plantings and residential shade. Its habit is vase-shaped, spreading, and often upright branching. Compared to the American elm, the crown is shorter and more rounded. When young, the bark is smooth and reddish brown with pronounced cherry-like lenticels. The Zelkova Serrata isn't as easy to differ. 
+           <br> <br>Specifications:<br><br>
+            Height: 5" to 8" Tall<br>
+            Level: Expert<br>
+            Age Range: 2 - 8 years<br>
+        </b></p><br> 
+        <h3>Rs2499.99</h3>       
+        <!--the javaScript function that increaser the quantity-->      
+        <div class="quantity">
+            <button class="minus" onclick="minusFunction()">-</button>
+            <input class="amount" type="text" value="0" id="number" />
+            <button class="plus" onclick="plusFunction()">+</button><br>
+        </div><br>
+        <button class="click1" onclick="alertFunction()">Add to Cart</button>
+        <script type="text/javascript">
+            /*for the addition button*/
+            function plusFunction()
+            {
+                var value = parseInt(document.getElementById('number').value);
+                    value++;
+                    if(value<=10){
+                        document.getElementById('number').value = value;
+                    }
+                }
+            /*for the subtreaftion button*/
+            function minusFunction()
+            {
+                var value = parseInt(document.getElementById('number').value);
+                if(value>0){
+                    value--;
+                        document.getElementById('number').value = value;
+                }
+            
+            }
+            </script>
+        
+    </div>
+</div>
+<section id="footer">
+    <div class="footer">
+        <div class="social">
+            <h1>Follow Me</h1>
+            <hr>
+            <ul>
+                <li><a href="#"> Facebook</a></li>
+                <li><a href="#"> Twitter</a></li>
+                <li><a href="#"> Instagram</a></li>
+                <li><a href="#"> Youtube</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <h1>Menu</h1>
+            <hr>
+            <ul>
+                <li><a href="..All HTML/KisoProducts.html">Products</a></li>
+                <li><a href="..All HTML/KisoProducts.html">About Us</a></li>
+                <li><a href="../All HTML/blog.html">Blog</a></li>
+                <li><a href="../All HTML/chooseus.html">Why Choose Us?</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <hr>
+            <ul>
+                <li>Contact: 01-424335</li>
+                <li>Email: kisoroots@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <div>
+            <h3>Copyright @2023. Kiso.com</h3>
+    </div>
+</section>
+</section>
+</body>
+</html>

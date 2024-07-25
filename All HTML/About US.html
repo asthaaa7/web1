@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+
+        /*the button for the scroll function*/
+        let mybutton = document.getElementById("click1");
+
+        window.onscroll = function() {scrollFunction()};
+    /*makes the button scroll to the bottom*/
+        function bottomFunction() {
+            document.documentElement.scrollTop= 960; 
+          }
+    
+          function alertFunction() {
+                alert("The Service is not available at the moment.");
+                
+              }
+        /*for the contact us form validation*/
+        function validateFunction(){
+                var firstname = document.forms["form"]["fname"].value;
+                var lastname = document.forms["form"]["lname"].value;
+                var email = document.forms["form"]["email"].value;
+                var number = document.forms["form"]["number"].value;
+                var message = document.forms["form"]["message"].value;
+
+            if(firstname=="" && lastname=="" && email=="" && number=="" && message==""){
+                        alert("You have not entered the information required.");
+                        return false;
+                     }
+            else{
+                        alert("Thank You for your Message!");
+                    }
+            }
+    </script>
+    <title>
+        About Us
+    </title>
+    <style>
+    .centernav li a{
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    }
+    .menu h1{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .contact h1{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .social h1{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .menu ul li a{
+        font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+    .contact ul li {
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+    }
+    .social ul li {
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+    }
+    .menu ul li {
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+    }
+    .copyright{
+        font-family:'Poppins', 'Arial Narrow', Arial, sans-serif;
+    }
+    .horizontal_line2 {
+            margin-top: 9px;
+            margin-left: 0px;
+            background-color: grey;
+            width: 40px;
+            height: 5px;
+            border-top: 5px  black;
+            line-height: 80%;
+        }
+  
+        .line2 {
+            margin-left: 0px;
+            border-bottom: 5px solid #267792;
+            margin-top: 5px;
+            width: 50px;
+        }
+        .container1 h1{
+            font-family: 'Raleway', 'Arial Narrow', Arial, sans-serif;
+        }
+        #click1{
+            font-family:'Montserrat', 'Arial Narrow', Arial, sans-serif; 
+        }
+        .team{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .description1 h1{
+            font-family:'Raleway', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description1 h2{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description1 p{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description2 h1{
+            font-family:'Raleway', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description2 h2{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description2 p{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description3 h1{
+            font-family:'Raleway', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description3 h2{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description3 p{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description4 h1{
+            font-family:'Raleway', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description4 h2{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description4 p{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description5 h1{
+            font-family:'Raleway', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description5 h2{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description5 p{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+        }
+        .formcontainer h1{
+            font-family:'Oswald', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 30px;
+        }
+        .inputform{
+            font-family:'Raleway', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+        .sbmt{
+            font-family:'Raleway', 'Arial Narrow', Arial, sans-serif;
+        }
+        #prompt::placeholder{
+            font-family:'Raleway', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 10px;
+        }
+        
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../All CSS/AboutUsCss.css">
+</head>
+    <body>
+<!--the start of the navbar-->
+    <nav>   
+<!--the logo of the navbar-->
+<ul class="leftnav">
+        <a href="../All HTML/kisonew.html"><img class="logo" src="../All Images/logo.jpg" width="50" height="50"></a>
+    <div class="horizontal_line2"></div>
+    <div class="line2"></div>
+</ul>
+<!--the center options of the navbar-->
+<ul class= "centernav">
+        <li>
+        <a href="../All HTML/KisoProducts.html"><b>Our Products</b></a></li>
+    <li>
+        <a href="../All HTML/About US.html"><b>About Us</b></a></li>
+    <li>
+        <a href="../All HTML/blog.html"><b>Blog</b></a></li>
+    <li>
+        <a href="../All HTML/research.html"><b>Research</b></a></li> 
+    <li>
+        <a href="../All HTML/chooseus.html"><b>Why Choose Us?</b></a></li> 
+</ul> 
+    
+
+ <!--the right options of the navbar-->   
+ <ul class="rightnav">
+    <li>
+         <a href="#" onclick="alertFunction()"><img src="../All Images/User.png" width="30" height="30"></a></li>
+    <li>
+         <a href="#" onclick="alertFunction()"><img src="../All Images/Cart.png" width="23" height="23"></a></li>
+    
+</ul>
+
+</nav>
+<!--container with the image and the button to scrool-->
+    <div class="container1">
+        <h1>Meet the Team</h1>
+            <button onclick="bottomFunction()" id="click1" title="Go to Bottom"><b>The Team</b> </button> 
+        <img class="img1" src="../All Images/AboutUs.jpg"  width=100%>
+    </div>
+<!--the cards for our team-->
+        <h1 class="team">Our Team</h1>
+    <div class="members">
+        <div class="member1">
+                <img class="memberimage1" src="../All Images/Avantika.jpg" width="350" height="350">
+            <div class="description1">
+                <h1>Founder</h1>
+                <p>Avantika</p><br>
+                <div align="center">
+                <button>Check Portfolio</button>
+                </div>  
+            </div>
+        </div>
+        <div class="member2">
+                <img class="memberimageimage2" src="../All Images/Sujay.jpg" height="350">
+            <div class="description2">
+                <h1>Web Designer</h1>
+                <p>Sujay Man Tuladhar</p><br>
+                <div align="center">
+                <button onclick="location.href='../All HTML/Portfolio.html'">Check Portfolio</button>
+                </div>  
+            </div>
+        </div>
+        <div class="member3">
+                <img class="memberimage3" src="../All Images/User.png" height="350">
+            <div class="description3">
+                <h1>CEO</h1>
+                <p>Astha</p><br>
+                <div align="center">
+                <button>Check Portfolio</button>
+                </div>  
+            </div>
+        </div>
+    </div> 
+    <div class="members2">
+        <div class="member4">
+                <img class="memberimage1" src="../All Images/Angel.jpg" width="350" height="350">
+            <div class="description4">
+                <h1>Researcher</h1>
+                <p>Angel</p><br>
+                <div align="center">
+                <button onclick="location.href='../All HTML/AngelPortfolio.html'">Check Portfolio</button>
+                </div>  
+            </div>
+        </div>
+        <div class="member5">
+                <img class="memberimageimage2" src="../All Images/Alish.jpg" height="350">
+            <div class="description5">
+                <h1>Researcher</h1>
+                <p>Aalish</p><br>
+                <div align="center">
+                <button onclick="location.href='../All HTML/AlishPortfolio.html'">Check Portfolio</button>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!--the container with form-->
+    <div class = "formcontainer">
+        <h1>Contact Us</h1><br>
+        <form name="form" onsubmit="validateFunction()">
+          <div class = "inputform">
+            <label for="name">First Name:</label><br>
+            <input id="prompt" placeholder="Enter First Name" name="fname" type="text">
+          </div>
+          <div class = "inputform">
+            <label for="name">Last Name:</label><br>
+            <input id="prompt" placeholder="Enter Last Name" name="lname" type="text">
+          </div>
+          <div class = "inputform">
+            <label for="name">E-mail:</label><br>
+            <input id="prompt" placeholder="Enter E-mail" name="email" type="email">
+          </div>
+          <div class = "inputform">
+            <label for="name">Phone No.:</label><br>
+            <input id="prompt" placeholder="Enter Number" name="number" type="number">
+          </div>
+          <div class = "inputform">
+            <label for="name">How may we help you?</label><br>
+            <input id="prompt" placeholder="Your message" name="message" type="message">
+          </div>
+          <input class="sbmt" type="submit">
+        </form>
+  </div>
+  <section id="footer">
+    <div class="footer">
+        <div class="social">
+            <h1>Follow Us</h1>
+            <hr>
+            <ul>
+                <li><a href="#"> Facebook</a></li>
+                <li><a href="#"> Twitter</a></li>
+                <li><a href="#"> Instagram</a></li>
+                <li><a href="#"> Youtube</a></li>
+            </ul>
+        </div>
+        <div class="menu">
+            <h1>Menu</h1>
+            <hr>
+            <ul>
+                <li><a href="..All HTML/KisoProducts.html">Products</a></li>
+                <li><a href="..All HTML/KisoProducts.html">About Us</a></li>
+                <li><a href="../All HTML/blog.html">Blog</a></li>
+                <li><a href="../All HTML/chooseus.html">Why Choose Us?</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <hr>
+            <ul>
+                <li>Contact: 01-424335</li>
+                <li>Email: kisoroots@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <div>
+            <h3>Copyright @2023. Kiso.com</h3>
+    </div>
+</section>
+</section>
+    </body>
+</head>
+</html>
