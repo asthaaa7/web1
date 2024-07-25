@@ -1,0 +1,32 @@
+body, html{
+	height: 100%;
+	margin: 0;
+}
+.topic{
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+	letter-spacing: 0.3rem;
+	color: black;
+	font-family: sans-serif;
+	font-weight: 500;
+	background-color: lightgreen;
+}
+.body{
+	display: flex;
+}
+.left{
+	flex: 50%;
+	background-color:#f1f1f1 ;
+	margin: 10px;
+	padding: 10px;
+}
+.right{
+	flex: 50%;
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 10px;
+}
+.headings{
+	color: gray;
+}

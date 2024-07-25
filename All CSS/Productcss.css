@@ -1,0 +1,456 @@
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: content-box;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+/*customizing the nav bar*/
+/*customizing the nav bar*/
+nav{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 110px;
+    padding: 0px 0px;
+   position: fixed;
+    display: flex;
+    opacity: 1;
+    background: #ffffff;
+    z-index: 100;
+    border-bottom: 3px solid #333333;
+  
+  }
+  
+  /*for the content on the letf side of the nav bar*/
+  .leftnav {
+    margin-left: 40px;
+    position: absolute;
+    top: -20px;
+}
+  
+  /*for the content ont he left side of the nav bar*/
+  .centernav{
+    margin-top: 45px;
+    margin-left: 450px;
+    display:flex;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .centernav li{
+    padding: 0px 10px;
+    
+  }
+  
+  .centernav li a{
+    
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    width:25%;
+    }
+       
+      .clear-icon {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 10px;
+        cursor: pointer;
+             }
+  
+    .logo{
+        margin-top: 40px;
+    }
+  
+    /*for the content on the right side of the nav bar*/
+    .rightnav{
+    margin-left: 350px;
+    margin-top: 0px;
+    padding:0px 0px;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 0;
+    
+    }
+  
+  .rightnav li input{
+  padding:0px 0px;
+   align-items: center;
+  }
+  
+  .rightnav li{
+  padding: 0px 10px;
+  text-decoration: none;
+  color: antiquewhite;
+  list-style: none;
+  
+  
+  }
+  
+  .rightnav li a{
+  justify-content: right;
+  }
+.saleannouncement{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 110px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    background-color: #000;
+}
+.filter{
+    
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 5px;
+    position:sticky;
+    top: 250px;
+    margin-bottom: 0px;
+    max-height: 800px;
+}
+.filter ul li {
+    list-style: none;
+}
+
+.allproducts{
+    cursor: pointer;
+    margin-left: 300px;
+}
+.productcontainer1{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    top: -150px;
+    margin-bottom: 30px;
+}
+.productcontainer1:hover{
+    scale: 1.06;
+}
+.productimage1{
+    display: flex-start;
+
+}
+.description1{
+    
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+.productcontainer2{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer2:hover{
+    scale: 1.06;
+}
+.productimage2{
+    display: flex-start;
+
+}
+.description2{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+.productcontainer3{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top:-150px
+}
+.productcontainer3:hover{
+    scale: 1.06;
+}
+.productimage3{
+    display: flex-start;
+
+}
+.description3{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+.productcontainer4{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer4:hover{
+    scale: 1.06;
+}
+.productimage4{
+    display: flex-start;
+
+}
+.description4{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+.allproducts a{
+   
+    text-decoration: none;
+}
+
+.productcontainer5{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer5:hover{
+    scale: 1.06;
+}
+.productimage5{
+    display: flex-start;
+
+}
+.description5{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+
+.productcontainer6{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer6:hover{
+    scale: 1.06;
+}
+.productimage6{
+    display: flex-start;
+
+}
+.description6{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+
+.productcontainer7{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer7:hover{
+    scale: 1.06;
+}
+.productimage7{
+    display: flex-start;
+
+}
+.description7{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+
+.productcontainer8{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer8:hover{
+    scale: 1.06;
+}
+.productimage8{
+    display: flex-start;
+
+}
+.description8{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+
+.productcontainer9{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer9:hover{
+    scale: 1.06;
+}
+.productimage9{
+    display: flex-start;
+
+}
+.description9{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+
+.productcontainer10{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer10:hover{
+    scale: 1.06;
+}
+.productimage10{
+    display: flex-start;
+
+}
+.description10{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+.productcontainer11{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer11:hover{
+    scale: 1.06;
+}
+.productimage11{
+    display: flex-start;
+
+}
+.description11{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+
+.productcontainer12{
+    max-width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+    display: flex ;
+    margin-bottom: 30px;
+    top: -150px;
+}
+.productcontainer12:hover{
+    scale: 1.06;
+}
+.productimage12{
+    display: flex-start;
+
+}
+.description12{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex-end;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* footer */
+
+/* example for flex model */
+.footer {
+    margin-top: 40px;
+  border-top: 2px solid #000;
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000;
+    padding: 2% 0%;
+}
+
+.social ul li a{
+    text-decoration: none;
+    color: #000;
+    list-style: none; 
+}
+
+
+.footer ul {
+    list-style: none;
+  }
+
+.footer ul {
+    list-style: none;
+}
+/* copyright */
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 0%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+  }

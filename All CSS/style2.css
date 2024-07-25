@@ -1,0 +1,144 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-image: url(../All\ Images/3.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../All\ Images/3.jpg);
+    letter-spacing: 1.5px;
+  }
+  .photo{
+      height: 13px;
+      margin-left: 928px;
+      margin-top: 72px;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  header h1 {
+    margin: 10px;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+    padding-left: 27px;
+    color: #fff;
+  }
+
+  h2{
+    padding-left: 42px;
+    color: rgb(255, 255, 255);
+  }
+  h3{
+      padding-left: 22px;
+      letter-spacing: 2.5px;
+      line-height: 25px;
+      font-family: Arial;
+      color: #fff;
+  }
+  
+
+  .content{
+      width: 1200px;
+      height: auto;
+      margin: auto;
+      color: rgb(255, 255, 255);
+  }
+  
+  .content .par{
+      padding-left: 0px;
+      padding-bottom: 10px;
+      font-family: Arial;
+      letter-spacing: 1.2px;
+      line-height: 30px;
+      margin-top: -40px;
+  }
+  
+  .content h1{
+      font-family: 'Times New Roman';
+      font-size: 50px;
+      padding-left: 5px;
+      margin-top: 100x;
+      margin-bottom: 95px;
+      letter-spacing: 2px;
+  }
+  
+  .content .cn{
+      width: 160px;
+      height: 40px;
+      background: #7033338a;
+      border: none;
+      margin-bottom: 60px;
+      margin-left: 0px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: .4s ease;
+  }
+  
+  .content .cn a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      transition: .3s ease;
+  }
+  
+  .cn:hover{
+      background-color: rgb(0, 255, 51);
+  }
+  
+  .content span{
+      color: #00fd26;
+      font-size: 60px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin: 0 2em;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main {
+    padding: 3em;
+  }
+  section {
+    margin-bottom: 5em;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 200px;
+  }
+  .formlayer {
+    display: flex;
+}
+
+.leftpar {
+    width: 40%;
+    height: 319px;
+    margin-top: 3px;
+    background-color: rgb(48 45 45);
+    color: white;
+}
+
+.form1 {
+    margin-left: 10px;
+    color: white;
+}
+
+.submit {
+    background-color: rgb(196, 195, 195);
+    border-radius: 14px;
+    width: 97px;
+}
